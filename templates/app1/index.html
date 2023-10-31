@@ -33,7 +33,7 @@
     <tbody>
     {% for i in data  %}
       <tr>
-        <th scope="row">{{i.id}}</th>
+        <th scope="row">{{ forloop.counter }}</th>
         <td>{{i.name}}</td>
         <td>{{i.email}}</td>
         <td>{{i.password}}</td>
